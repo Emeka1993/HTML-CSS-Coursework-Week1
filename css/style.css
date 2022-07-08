@@ -6,3 +6,154 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+ body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ h3{
+     color: #e0a966;
+ }
+ /* ----------- header -----------*/
+ .c-site-header{
+     background-color: #e0e0e0;
+     width: 100%;
+     min-height: 50px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .tagline{
+     color: #fff;
+    letter-spacing: 2px;
+    font-size: 12px;
+ }
+ .navlinks{
+     display: flex;
+     justify-content: space-evenly;
+     padding: 15px 0 10px 0;
+ }
+ .navlinks .link a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ font-size: 20px;
+ letter-spacing: 1px;
+ }
+ .navlinks .link a:hover{
+ color: #e0a966;
+ transition: all 0.3s ease-in;
+ }
+ /* ------ Hero ----------*/
+
+ .img_overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: linear-gradient(
+                      rgba(20,20,20, .5), 
+                      rgba(20,20,20, .5));
+                      width: 100%;
+                      height: 100%;
+ }
+ .text_flex h1{
+ z-index: 2;
+ color: #fff;
+ font-size: 40px;
+ margin-top: 0px;
+ padding-top: 250px;
+ text-align: center;
+ }
+ .video_intro > iframe{
+     width:660px;
+      height: 415px; 
+ }
+ 
+ /* --------- top services i offer -------- */
+ .top_content{
+     margin-top: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .top_content h1{
+     font-size: 50px;
+     font-weight: 600;
+     margin: 0 ;
+     letter-spacing: 2px;
+ }
+ .top_content > p{
+     font-size: 20px;
+     margin-bottom: 100px;
+ }
+ .video_intro{
+     display: flex;
+     justify-content: center;
+    margin-bottom: 100px;
+ }
+ .our_story{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .story_top > article{
+     margin: 0 200px;
+     font-size: 17px;
+     font-weight: bolder;
+ }
+ .sub_image_story {
+     display: flex;
+     justify-content: center;
+     margin: 50px 0;
+ }
+ .sub_image_story img{
+     border: 20px solid #e0a966;
+     width: 40vw;
+ }
+ .story_bottom > img{
+     margin-top: 50px;
+     width: 40vw;
+     border: 20px solid #e0a966;
+ }
+ 
+ 
+ .headline_2{
+     text-align: center;
+     max-width: 50%;
+     font-weight: 600;
+ }
+ 
+ /* ----------- footer ----------------*/
+ .c-site-footer{
+     margin-top: 100px;
+     width: 100%;
+     min-height: 300px;
+     background: #e0e0e0;
+ }
+ .footer_inner{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 50px;
+ }
+ .foot_seg > div{
+     color: rgb(0, 0, 0);
+ }
+ .foot_seg > h3{
+     font-size: 30px;
+ }
+ .foot_seg > .link{
+     margin-top: 25px;
+ }
+ .foot_seg > .link > a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+ }
+ 
+ /* don't edit this */
+ .jest-lite-report__status--pass {
+   background: var(--color-pass);
+ }
+ .jest-lite-report__errors { display:none }
+ 
